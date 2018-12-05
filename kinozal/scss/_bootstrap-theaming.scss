@@ -1,0 +1,36 @@
+
+.navbar-inverse .navbar-nav>.active>a {
+	background-color: $color-active;
+}
+.navbar-inverse .navbar-nav>li {
+	margin: 5px 3px 5px 0;	
+}
+.navbar-inverse .navbar-right>li {
+	margin: 5px 0 5px 3px;	
+}
+.navbar-inverse .navbar-nav>li>a {
+	border-radius: 4px;
+	&:focus, &:hover {
+		background-color: lighten($color-active, 15%) !important;
+	}
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+	width: 100%;
+}
+.panel-info>.panel-heading {
+	background-color: $color-highlighter;
+	color: #fff;
+	border: none;
+	font-size: 1.2rem;
+	letter-spacing: 2px;
+}
+.panel-info>.panel-body {
+	border: 1px solid #ddd;
+}
+.panel {
+	border: none;
+	background-color: #eee;
+}
+.input-lg {
+	font-size: 1rem;
+}

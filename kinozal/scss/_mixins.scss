@@ -1,0 +1,7 @@
+@mixin text-shortener {
+  display: block;
+  overflow: hidden;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

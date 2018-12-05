@@ -1,0 +1,24 @@
+.header-logo {
+	background-color: #1b1b1b;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-image: url(../img/header-bg.jpg);
+	background-position: 50% 50%;
+	background-size: cover;
+	&__title {
+		display: block;
+		font-size: 3.428rem;
+		text-align: center;
+		color: $color-highlighter;
+		letter-spacing: 12px;
+		text-shadow: 1px 1px 5px #000, 0 0 15px #000;
+	}
+	&__description{
+		display: block;
+		font-size: 1.1428rem;
+		text-align: center;
+		color: #fff;
+		letter-spacing: 5px;
+		text-shadow: 1px 1px 5px #000;
+	}
+}

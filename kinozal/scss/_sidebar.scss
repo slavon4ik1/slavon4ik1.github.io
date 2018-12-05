@@ -1,0 +1,34 @@
+.carousel {
+	border-radius: 4px;
+	overflow: hidden;
+}
+.site-news-item {
+	&:not(:last-child) {
+		margin-bottom: 15px;
+		border-bottom: 1px solid #aaaaaa;
+	}
+	&__image {
+		float: left;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		 img {
+			width: 75px;
+		}
+	}
+	&__date {
+		font-size: 0.8rem;
+		text-align: right;
+		color: #aaaaaa;
+	}
+	.thumbnail {
+		transition: background-color 0.5s;
+	}
+	&:hover {
+		.thumbnail {
+			background-color: $color-highlighter;
+		}
+		a {
+			color: $color-highlighter;
+		}
+	}
+}

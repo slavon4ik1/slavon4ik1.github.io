@@ -25,8 +25,8 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     color: #396;
-    font-size: 110px;
-    margin: 265px 0px 120px;
+    font-size: 70px;
+    margin: 115px 0px 120px;
 }
 .clock__wrap {
   width: 100%;
@@ -42,12 +42,12 @@
   justify-content: center;
 }
  
-#clockdiv > div{
-  padding: 35px;
-  border-radius: 7px;
-  background: #c7b299;
-  margin-left: 12px;
-    margin-bottom: 31%;
+#clockdiv > div {
+    padding: 35px;
+    border-radius: 7px;
+    background: #c7b299;
+    margin-left: 12px;
+    margin-bottom: 1%;
 }
  
 #clockdiv div > span{
@@ -1089,6 +1089,11 @@ i:hover {
     -ms-flex-pack: center !important;
     justify-content: center !important;
   }
+  #clockdiv div > span {
+    padding: 10px;
+    border-radius: 7px;
+    background: #a48d72;
+}
 }
 
 @media (max-width: 720px) {
@@ -1116,6 +1121,13 @@ i:hover {
     max-width: 100%;
     height: 340px !important;
   }
+
+  #clockdiv div > span {
+      padding: 10px;
+      border-radius: 7px;
+      background: #a48d72;
+      margin: -8px;
+  }
 }
 
 @media (max-width: 540px) {
@@ -1136,4 +1148,12 @@ i:hover {
   .header-menu__nav {
     left: 60%;
   }
+
+  #clockdiv div > span {
+      padding: 10px;
+      border-radius: 7px;
+      background: #a48d72;
+      margin: -8px;
+  }
+
 }

@@ -1,0 +1,224 @@
+/*====== Banner ======*/
+.banner{
+	color: #000;
+	border-top: 1px solid #e5e5e5;
+	flex-wrap: nowrap;
+}
+.banner .banner_title h5{
+	color: #757575;
+}
+.nike_red{
+	position: relative;
+	flex: 1 1 50%;
+	background: url(../img/banner/nike_red.png) no-repeat center center;
+	background-size: cover;
+	border-right: 1px solid #e5e5e5;
+	box-sizing: border-box;
+}
+.caps_hats{
+	position: relative;
+	flex: 1 1 50%;
+	box-sizing: border-box;
+	background: #f7f7f7 url(../img/banner/caps_and_hats.png) no-repeat center center;
+	background-size: cover;
+}
+.banner .nike_red .banner_title,
+.banner .caps_hats .banner_title{
+	position: absolute;
+	top: 12%;
+	right: 15%;
+}
+.index_sale{
+	display: none;
+}
+/*====== Best offer ======*/
+.best-offer{
+	margin-top: 75px;
+	width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+	text-align: center;
+}
+.discount_cost_tablet{
+	display: none;
+}
+.best-offers{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+		justify-content: space-between;
+    position: relative;
+}
+#slidesLeft,#slidesRight {
+    width: 33%;
+    position: relative;
+    height: 540px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+.slide {
+    box-sizing: border-box;
+}
+.controls{
+    font-size: 36px;
+    width: 24px;
+    height: 15px;
+    border: none;
+    background-color: #fff;
+    color: #f14a58;
+}
+#next,#next1{
+	  position: absolute;
+	  top: -45px;
+	  left: 91px;
+	  transform: rotate(-90deg);
+}
+#previous,#previous1{
+	  position: absolute;
+	  transform: rotate(-270deg);
+	  left: 122px;
+	  top: 491px;
+	  z-index: 5;
+}
+.best-offer_block .promo_title p {
+		font-size: 0.37em;
+		color: #7d7d7d;
+}
+.add-to-bag_tablet{
+		display: none !important;
+		margin: 0 auto;
+}
+.discount_cost{
+	margin-top: 160px;
+	text-align: center;
+	width: 33%;
+}
+.product_cost{
+		font-family: 'RobotoBold';
+		font-size: 2.125em;
+}
+.discount_price{
+		text-align: left;
+		font-family: 'RobotoRegular';
+		padding-left: 50px;
+		font-size: 1.625em;
+		color: #757575;
+		position: relative;
+	}
+	.discount_price:after{
+		content: '';
+    position: absolute;
+    background: #f14a58;
+    height: 1px;
+    width: 29%;
+    top: 15px;
+    left: 48px;
+    transform: rotate(-23deg);
+	}
+	.discount_card .product_image{
+		margin-top: 30px;
+	}
+.add-to-bag{
+	margin-top: 30px;
+}
+.slider_controls{
+	width: 11%;
+	border: none;
+	background-color: #ffffff;
+}
+.slider_controls::before {
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-top: 3px solid #f14a58;
+    border-left: 3px solid #f14a58;
+}
+#prev::before {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#next::before {
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+/*====== Promo block ======*/
+.promo_block{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 80px;
+}
+.promo_title{
+	padding-top: 145px;
+	padding-bottom: 100px;
+	font-family: 'OpenSansBold';
+	font-size: 3em;
+	text-align: center;
+}
+.all_arrivals,
+.add-to-bag{
+	display: inline-flex;
+	align-items: center;
+	width: 340px;
+	height: 75px;
+	justify-content: center;
+	font-family: 'OpenSansBold';
+	font-size: 1.5em;
+	background-color: transparent;
+	border: 1px solid #e5e5e5;
+}
+.catalog{
+	display: flex;
+	flex: 0 1 90%;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+.catalog::after{
+	content: '';
+	flex: 0 1 100%;
+	max-width: 240px;
+}
+.catalog::before{
+	content: '';
+	flex: 0 1 100%;
+	order: 1;
+	max-width: 240px;
+}
+.catalog_card{
+	flex: 0 1 100%;
+	max-width: 240px;
+	height: 450px;
+	text-align: center;
+	margin-bottom: 60px;
+	cursor: url(../img/pointer.png), pointer;
+}
+.catalog_card:hover .product_image::after{
+	opacity: 1;
+}
+.catalog_card:hover .product_name{
+	color: #f14a58;
+}

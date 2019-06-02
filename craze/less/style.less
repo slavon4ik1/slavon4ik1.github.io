@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+html {
+  font-size: 10px;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: helvetica;
+  max-width: 100%;
+}
+
+.head {
+  background-image: url(../img/Безимени-1.jpg);
+  
+  &_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  
+  &_log {
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    font-size: 7.2rem;
+  }
+  
+  &_text {
+    color: #fff;
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+   text-align: center;
+    
+  }
+
+  & .hand {
+    width: 70%;
+    height: auto;
+    margin-top: 10rem;
+  }
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  
+  & .android {
+    margin: auto 2rem;
+  }
+}
+
+.features {
+  & .feature {
+    color: #222;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 5rem;
+
+    &_after {
+      color: #222;
+      font-size: 1.6rem;
+      margin-top: 3rem;
+    }
+  }
+}
+
+.list {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+
+  & img {
+    width: 10%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  & .main_word {
+    color: #222;
+    font-size: 2.4rem;
+    font-weight: bold;
+  }
+
+  & .word {
+    color: #848484;
+    font-size: 1.6rem;
+  }
+}
+
+.third {
+  background-color: #e7e7e7;
+}
+
+.about {
+  color: #848484;
+  font-size: 1.6rem;
+  display: flex;
+
+  &_head {
+    color: #222; 
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  &_words, ul {
+    margin-top: 4.5rem;
+  }
+
+  & .words {
+    margin: auto;
+  }
+
+  & ul {
+    list-style: none; 
+    background: url(../img/arrow.png) no-repeat 1.5rem 0.5rem,
+    url(../img/arrow-2.png)  no-repeat 1.5rem 3rem;
+  }
+
+  & a {
+    text-decoration: none;
+    color:  #848484;
+  }
+}
+
+.video  {
+ margin: 3rem auto;
+ display: flex;
+ justify-content: center;
+}
+
+.some_text {
+  & .words {
+    margin-top: 5rem;
+    color: #848484;
+    font-size: 2.4rem;
+    font-style: italic;
+  }
+
+  & .name {
+    color: #222;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
+  } 
+}
+
+.pricing {
+  color: #848484;
+  font-size: 1.6rem;
+  background-color: #e7e7e7;
+
+  & .plans {
+    color: #222;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 3rem;
+
+    &_text {
+      margin-bottom: 3rem;
+    }
+  }
+}
+
+.cart {
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  height: 81%;
+  
+  & .header {
+    background-color: #3498db;
+    color: #fefefe;
+    font-size: 2.8rem;
+    font-weight: 300;
+    padding: 6%;
+  }
+
+  & .price {
+    color: #222;
+    font-size: 4.2rem;
+    font-weight: bold;
+  }
+
+  & .features {
+    font-size: 1.6rem;
+    padding: 3%;
+    width: 80%;
+    margin: 0 auto;
+    border-top: 2px solid #848484;
+  }
+  
+  & .bottoms {
+    background-color: #3498db;
+    padding: 3%;
+
+    & button {
+      border-radius: 2px;
+      background-color: #0d74b9;
+      border: none;
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: bold;
+      padding: 1rem 3rem;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.carts {
+  display: flex;
+  justify-content: center;
+  margin: 0rem;
+}
+
+.say {
+  color: #222;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 5rem;
+
+  &_bottom {
+    color: #848484;
+    font-size: 1.6rem;
+  }
+}
+
+.icons {
+  margin: 3rem auto;
+
+  & .face,
+   {
+    margin: auto 1rem;
+  }
+  & .goog {
+    margin: auto 1rem auto 0;
+    }
+  }
+
+.footer {
+    background-color: #e7e7e7;
+  & ul {
+    padding-left: 0;
+  }
+
+  & li {
+  display: inline-block;
+  margin: 5% 2%;
+  }
+
+  & a {
+    text-decoration: none;
+    color: #848484;
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .footer li {
+    display: block;
+  }
+}

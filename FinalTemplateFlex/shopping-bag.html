@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Template</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.css">
+	<meta name="viewport" content="width=device-width" initial-scale="1.0">
+	<script src="js/common.js" defer></script>
+	<script src="js/shopping-bag.js" defer></script>
+</head>
+<body>
+
+<!-- HEADER -->
+	<div class="content">
+		<header>
+			<div class="header wrapper clearfix">
+				<h1>
+					<a href="index.html" class="big-logo">Template</a>
+					<a href="index.html" class="small-logo">TL</a>
+				</h1>
+				<div class="signup-bag">
+					<a href="#" class="signup">E-mail sing up</a>
+					<a href="shopping-bag.html" class="bag">
+						<img src="img/bag.png" alt="Bag Icon">
+						Bag
+						<span class="total-price"></span>
+						(<span class="items-counter"></span>)
+					</a>
+					
+				</div>	
+			</div>
+		</header>
+		<div class="mobile-menu">
+			<a href="#"><i class="fas fa-bars"></i></a>
+		</div>
+<!-- NAVIGATION -->
+	<nav class="wrapper clearfix">
+		<ul class="clearfix">
+			<li>
+				<a href="catalog.html">Women</a>
+			</li>
+			<li>
+				<a href="">Men</a>
+			</li>
+			<li>
+				<a href="">Handbags</a>
+			</li>
+			<li>
+				<a href="">Accessories</a>
+			</li>
+			<li>
+				<a href="your-item.html">Sale</a>
+			</li>
+			<li>
+				<a href="">New Arrivals</a>
+			</li>
+			<li>
+				<a href="">Clearance</a>
+			</li>
+			<li>
+				<a href="">Store Locator</a>
+			</li>
+		</ul>
+		<div class="search">
+			<form action="">
+				<input type="text" id="search-input" placeholder="Style Name">
+				<input type="button" id="search" title="Search">
+				<label for="search">
+					<i class="fas fa-search"></i>
+				</label>
+			</form>
+		</div>
+	</nav>	
+	<div class="separator"></div>
+<!-- Bag-->
+	<main>
+		<div class="bag-header wrapper">
+			<a href="shopping-bag.html">
+				<h2>Shopping bag</h2>
+			</a>
+		</div>
+		<div class="separator"></div>
+		<div class="bag-items wrapper clearfix">
+		</div>
+		
+<!-- BAG FUNCTIONAL -->	
+		
+		<div class="message-in-bag empty-bag wrapper">
+			<p>Your shopping bag is empty. Use <a href="catalog.html">Catalog</a> to add new items</p>
+		</div>
+		<div class="message-in-bag thanks wrapper">
+			<p>Thank you for your purchase!</p>
+		</div>
+		<div class="separator"></div>
+		<div class="message-delivery wrap">
+			<p>You've qualified for Free UK Next Day Delivery on your order. Don't forget to enter the code <span>nextday</span> at checkout</p>
+		</div>
+		<div class="wrapper bag-controller clearfix">
+			<button class="bag-button" id="empty-bag">Empty bag</button>
+			<button class="main-btn buy-now-button">Buy now</button>
+			<button class="bag-button">
+				Total cost <br>
+				<span id="bag-cost"></span>
+			</button>
+			
+		</div>		
+	</main>
+	<div class="separator"></div>
+<!-- FOOTER -->
+<footer>
+		<div class="footer-top wrapper clearfix">
+			<div class="footer-left clearfix">
+				<div class="quick-links">
+					<h3>Quick links</h3>
+					<ul>
+						<li>
+							<a href="#">Store locator</a>
+						</li>
+						<li>
+							<a href="#">Gifs cards</a>
+						</li>
+						<li>
+							<a href="#">Size guide</a>
+						</li>
+						<li>
+							<a href="#">About us</a>
+						</li>
+						<li>
+							<a href="#">Support</a>
+						</li>
+					</ul>
+				</div>
+				<div class="customer-care">
+					<h3>Customer Care</h3>
+					<ul>
+						<li>
+							<a href="#">Customer service</a>
+						</li>
+						<li>
+							<a href="#">Track my order</a>
+						</li>
+						<li>
+							<a href="#">Return policy</a>
+						</li>
+						<li>
+							<a href="#">Shipping & delivery</a>
+						</li>
+						<li>
+							<a href="#">Contact us</a>
+						</li>
+						<li>
+							<a href="#">Carees</a>
+						</li>
+					</ul>
+				</div>	
+			</div>
+			<div class="footer-right">
+				<div class="contact clearfix">
+					<div class="questions">
+						<h3>Questions</h3>
+							<div class="address">
+								<i class="fab fa-twitter tw"></i>
+								Tweet us
+								<span class="twitter">@template</span>
+							</div>
+					</div>
+					<div class="order">
+						<h3>Order by phone</h3>
+						<a href="tel:8-800-409-47-12">8-800-409-47-12</a>
+					</div>
+				</div>
+				<p class="clearfix">
+					We have our own delivery service which operates in 23 major European cities. Delivery time - 3-5 days.
+				</p>
+				<div class="social-links">
+					<a href="#">
+						<i class="fab fa-facebook-f fb"></i>
+					</a>
+					<a href="#">
+						<i class="fab fa-twitter tw"></i>
+					</a>
+				</div>
+			</div>	
+		</div>
+		<div class="separator border-sep"></div>
+		<div class="footer-mobile wrapper">
+			<ul>
+		        <li><a href="#">Site map</a></li>	
+				<li><a href="#">Privacy policy</a></li>
+				<li><a href="#">Legal notice</a></li>
+			</ul>
+			<div class="footer-mobile-social-links">
+					<a href="#">
+						<i class="fab fa-facebook-f fb"></i>
+					</a>
+					<a href="#">
+						<i class="fab fa-twitter tw"></i>
+					</a>
+			</div>
+		</div>
+		<div class="separator"></div>
+		<div class="footer-bottom wrapper">
+			<span>© 2010–2015, The Template Group inc.</span>
+			<a href="" class="share">
+				Share
+				<span>1 437</span>
+			</a>
+			<ul>
+				<li><a href="#">Site map</a></li>	
+				<li><a href="#">Privacy policy</a></li>
+				<li><a href="#">Legal notice</a></li>
+				
+				
+			</ul>
+			
+		</div>
+	</footer>
+</body>
+</html>

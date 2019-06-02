@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('OpenSansRegular.eot');
+    src: url('OpenSansRegular.eot') format('embedded-opentype'),
+         url('OpenSansRegular.woff2') format('woff2'),
+         url('OpenSansRegular.woff') format('woff'),
+         url('OpenSansRegular.ttf') format('truetype'),
+         url('OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('OpenSansBold.eot');
+    src: url('OpenSansBold.eot') format('embedded-opentype'),
+         url('OpenSansBold.woff2') format('woff2'),
+         url('OpenSansBold.woff') format('woff'),
+         url('OpenSansBold.ttf') format('truetype'),
+         url('OpenSansBold.svg#OpenSansBold') format('svg');
+}
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('RobotoRegular.eot');
+    src: url('RobotoRegular.eot') format('embedded-opentype'),
+         url('RobotoRegular.woff2') format('woff2'),
+         url('RobotoRegular.woff') format('woff'),
+         url('RobotoRegular.ttf') format('truetype'),
+         url('RobotoRegular.svg#RobotoRegular') format('svg');
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('RobotoBold.eot');
+    src: url('RobotoBold.eot') format('embedded-opentype'),
+         url('RobotoBold.woff2') format('woff2'),
+         url('RobotoBold.woff') format('woff'),
+         url('RobotoBold.ttf') format('truetype'),
+         url('RobotoBold.svg#RobotoBold') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansSemiBold';
+    src: url('OpenSansSemiBold.eot');
+    src: url('OpenSansSemiBold.eot') format('embedded-opentype'),
+         url('OpenSansSemiBold.woff2') format('woff2'),
+         url('OpenSansSemiBold.woff') format('woff'),
+         url('OpenSansSemiBold.ttf') format('truetype'),
+         url('OpenSansSemiBold.svg#OpenSansSemiBold') format('svg');
+}

@@ -1,0 +1,19 @@
+
+html {
+  font-size: 16px;
+}
+
+body {
+  overflow-y: scroll;
+  font-size: 1rem;
+}
+
+a {
+	transition: color 0.5s;
+	
+
+	&:hover,
+	&:focuse {
+	text-decoration: none;
+	}
+}

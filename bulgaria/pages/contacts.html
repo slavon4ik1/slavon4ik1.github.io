@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Article WH-DB.COM. How send ajax form.">
+    <meta name="author" content="wh-db.com">
+
+    <title>О компании</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../css/slick.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="../js/jquery-3.4.0.min.js"></script>
+    <script src="../js/ajax.js"></script>
+</head>
+
+<body>
+    <header id="header__about">
+        <div class="container-fluid opacopacity">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-9 col-md-4 order-0 order-lg-0 col-lg-2">
+                        <div class="header__logo bug">
+                            <a href="../index.html">
+                                <img src="../img/logo.png" alt="logo">
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-1 col-md-1 order-2 order-lg-1 col-lg-7">
+                        <nav>
+                            <a class="menu-btn" href="#"><span></span></a>
+                            <ul class="header__menu d-flex bug">
+                                <li class="header__item"><a href="../index.html">Главная</a></li>
+                                <li class="header__item"><a href="about.html">О компании</a></li>
+                                <li class="header__item"><a href="#">ВНЖ и ПМЖ в Болгарии</a></li>
+                                <li class="header__item"><a href="property.html">Недвижимость и переезд</a></li>
+                                <li class="header__item"><a href="contacts.html">Контакты</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-1 col-md-7 order--1 order-lg-2 col-lg-3">
+                        <div class="header__contacts d-flex bug">
+                            <i id="go" class="fas fa-phone"></i>
+                            <div class="header__contacts--number">
+                                <span>7 (495) 12-321-345</span>
+                                <br>
+                                <span>7 (495) 12-321-345</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="header__title about__header">
+                            <h1>Контакты</h1>
+                            <a href="#contacts__page">
+                                <i class="fas fa-arrow-down"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="contacts__page">
+        <div class="container change-pos change-pos-2">
+            <div class="row">
+                <div class="col-12">
+                    <div class="contacts__box">
+                        <p class="contacts__text">
+                            <strong>Мы всегда на связи</strong> -  и ответим на все интересующие Вас вопросы!
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="about__capture"></div>
+
+            <div class="about__partners">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="contacts__item">
+                           <div class="contacts_link">
+                               <a href="#">
+                                   <img src="../img/Phone-48.png" alt="#">
+                                   <div class="contacts_link--text">
+                                        <h4>Телефоны</h4>
+
+                                        <span>В Украине<a href="#"> 8(066)608-50-22</a></span><br>
+                                        <span>В Украине<a href="#"> 8(066)608-50-22</a></span>
+                                   </div>
+                                
+                                   
+                               </a>
+                           </div>
+                           <div class="contacts_link">
+                                <a href="#">
+                                    <img src="../img/Email-48.png" alt="#">
+                                    <div class="contacts_link--text">
+                                            <h4>E-Mail</h4>
+                                            <a href="#">info@sitename.ru</a>
+                                    </div>
+                                    
+                                </a>
+                            </div>
+                            <div class="contacts_link">
+                                    <a href="#">
+                                        <img src="../img/Skype-48.png" alt="#">
+                                        <div class="contacts_link--text">
+                                                <h4>Skype</h4>
+                                                <a href="#">@spkypename</a>
+                                        </div>
+                                        
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="contacts__form">
+                                <div class="form__title contacts__form--title">
+                                        <h2>Есть вопросы?</h2>
+                                    </div>
+                                    <div class="form__title contacts__form--title">
+                                            <p>
+                                                Закажите консультацию
+                                            </p>
+                                        </div>
+
+                                <form  >
+                                        <!-- Hidden Required Fields -->
+                                        <input type="hidden" name="project_name" value="Site Name">
+                                        <input type="hidden" name="admin_email" value="admin@mail.com">
+                                        <input type="hidden" name="form_subject" value="Форма в шапкн">
+                                        <!-- END Hidden Required Fields -->
+                
+                                        <input class="contacts__form--item" type="text" name="Name" placeholder="Ваше имя..." required>
+                                        <br>
+                                        <input class="contacts__form--item" type="email" name="E-mail" placeholder="Ваш E-mail..." required>
+                                        <br>
+                                        <input class="contacts__form--item" type="tel" name="Phone" placeholder="+38(093)111-111-1" required>
+                                        <br>
+                                        <button class="contacts__form--item2" id="btn-2" class="btn1">Заказать консультацию</button>
+                                    </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-4 col-md-4 col-lg-3">
+                    <img src="../img/footer_logo.png" alt="logo-footer">
+                </div>
+                <div class="col-12 col-sm-4 col-md-4 col-lg-3">
+                    <p class="footer__credits"> Все права защищены | 2019 |</p>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4 col-lg-3">
+                    <a class="footer__policy" href="#">Политика конфиденциальности</a>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="header__contacts d-flex">
+                        <i class="fas fa-phone"></i>
+                        <div class="header__contacts--number">
+                            <span>7 (495) 12-321-345</span>
+                            <br>
+                            <span>7 (495) 12-321-345</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div id="modal_form">
+                    <span id="modal_close">X</span>
+                    <form>
+
+                        <!-- Hidden Required Fields -->
+                        <input type="hidden" name="project_name" value="Site Name">
+                        <input type="hidden" name="admin_email" value="admin@mail.com">
+                        <input type="hidden" name="form_subject" value="Форма в шапкн">
+                        <!-- END Hidden Required Fields -->
+
+                        <input type="text" name="Name" placeholder="Ваше имя..." required>
+                        <br>
+                        <input type="text" name="E-mail" placeholder="Ваш E-mail..." required>
+                        <br>
+                        <input type="text" name="Phone" placeholder="Ваш телефон...">
+                        <br>
+                        <button id="btn" class="btn1">Заказать консультацию</button>
+
+                    </form>
+                    <div id="overlay"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+
+    <script src="../js/bootstrap.min.js"></script>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

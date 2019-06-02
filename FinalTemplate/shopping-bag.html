@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	<title>Shopping bag | Template shop</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/shopping-bag.css">
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/media.css">
+
+	<!-- JS -->
+	<script src="https://use.fontawesome.com/6a3ea28f4e.js"></script>
+</head>
+<body>
+	<header class="header">
+		<div class="header_title">
+			<div class="header_logo">
+				<a href="index.html"></a>
+			</div>
+			<div class="header_user_menu">
+				<div class="sign_up">
+					<a href="#">E-mail sign-up</a>
+				</div>
+				<a href="shopping-bag.html" class="shop_bag">
+					<i class="fa fa-shopping-basket"></i> Bag &#163; <span class="cart_sum"></span>(<span class="cart_amount">0</span>)
+				</a>
+			</div>
+		</div>
+		<a tabindex="2" class="header_bars_small">
+			<i class="fa fa-bars"></i>
+		</a>
+		<ul class="header_nav">
+			<li><a id="woman_catalog" href="catalog.html">Women</a></li>
+			<li><a id="man_catalog" href="catalog.html">Men</a></li>
+			<li><a href="#">Handbags</a></li>
+			<li><a href="#">Accessories</a></li>
+			<li><a href="#">Sale</a></li>
+			<li><a href="#">New Arrivals</a></li>
+			<li><a href="#">Clearance</a></li>
+			<li><a href="#">Store Locator</a></li>
+			<li>
+				<a class="search"  tabindex="3"><i class="fa fa-search"></i></a>
+				<input type="text" name="search" class="search_bar" placeholder="Style Name">
+			</li>
+		</ul>
+	</header>
+
+	<section class="bag_title">
+		Shopping bag
+	</section>
+
+	<section class="bag_main">
+		<div class="bag_items">
+		</div>
+	</section>
+
+	<section class="buy-now">
+		<p class="delivery_description">You've qualified for Free UK Next Day Delivery on your order. Don't forget to enter the code <span>nexday</span> at checkout</p>
+		<div class="submit_options">
+			<a href="catalog.html"><button class="empty_bag">Empty bag</button></a>
+			<button class="buy_submit">Checkout</button>
+			<div class="total_cost">Total cost:<span id="total_cost">&#163;250.00</span></div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="footer_nav">
+			<div class="footer_links">
+				<h3>Quick Links</h3>
+				<ul>
+					<li><a href="#">Store locator</a></li>
+					<li><a href="#">Gift cards</a></li>
+					<li><a href="#">Size guide</a></li>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Support</a></li>
+				</ul>
+			</div>
+			<div class="footer_links">
+				<h3>Customer Care</h3>
+				<ul>
+					<li><a href="#">Customer service</a></li>
+					<li><a href="#">Track my order</a></li>
+					<li><a href="#">Return policy</a></li>
+					<li><a href="#">Shipping &amp; delivery</a></li>
+					<li><a href="#">Contact us</a></li>
+					<li><a href="#">Careers</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer_info">
+			<div class="tweet_us">
+				<h3>Questions</h3>
+				<i class="fa fa-twitter"></i> Tweet us <a href="#">@template</a>
+			</div>
+			<div class="phone_up">
+				<h3>Order by phone</h3>
+				<a href="tel:88004094712">8-800-409-47-12</a>
+			</div>
+			<div class="delivery_info">
+				We have our own delivery service which <br> operates in 23 major European cities. Delivery <br> time - 3-5 days.
+			</div>
+			<div class="social_links">
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+			</div>
+		</div>
+		<div class="footer_policy">
+			<div class="copyright">© 2010–2015, The Template Group inc.</div>
+			<div class="share">Share <span>1437</span></div>
+			<div class="policy_links">
+				<a href="#">Legal notice</a>
+				<a href="#">Privacy policy</a>
+				<a href="#">Site map</a>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/navbar.js"></script>
+	<script type="text/javascript" src="js/shopping-bag.js"></script>
+</body>
+</html>

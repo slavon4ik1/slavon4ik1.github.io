@@ -1,0 +1,87 @@
+
+.navbar-inverse {
+  border: none;
+  background-color: #181818;
+
+  .navbar-nav {
+    font-size: 0.875rem;
+
+    > .active > a {
+      background-color: desaturate(darken($base-color, 15%), 20%);
+    }
+
+    &:not(.navbar-right) {
+      li {
+        margin: 5px 5px 5px 0;
+      }
+    }
+
+    &.navbar-right {
+      li {
+        margin: 5px 0 5px 5px;
+      }
+    }
+
+    li {
+      overflow: hidden;
+      border-radius: 4px;
+
+      &:hover,
+      &:focus {
+        a {
+          background-color: desaturate(darken($base-color, 30%), 30%);
+        }
+      }
+    }
+  }
+}
+
+.panel-info {
+  border: none;
+
+  > .panel-heading {
+    border: none;
+    background-color: $accent-color;
+    color: #ffffff;
+    letter-spacing: 2px;
+  }
+
+  .panel-body {
+    border: none;
+    background-color: #f3f3f3;
+  }
+}
+
+.carousel-inner {
+  > .item > img {
+    width: 100%;
+  }
+}
+
+.input-lg {
+  font-size: 0.875rem;
+}
+
+a.thumbnail {
+  border: none;
+  background-color: #cccccc;
+  transition: 0.5s;
+
+  &.active,
+  &:hover,
+  &:focuse {
+    background-color: desaturate(lighten($accent-color, 20%), 20%);
+    border: none;
+  }
+}
+
+.badge {
+  background-color: #333333;
+}
+
+.btn-warning {
+  transition: background-color 0.5s;
+}
+.film-send-comment .btn {
+    float: right;
+}

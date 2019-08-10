@@ -3,7 +3,7 @@ wow = new WOW (
   boxClass: 'wow', 
   animateClass: 'animated', 
   offset: 200, 
-  mobile: true, 
+  mobile: false, 
   live: true 
 } 
 ) 

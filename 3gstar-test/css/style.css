@@ -1209,4 +1209,11 @@ input {
     line-height: 3rem;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .price__title h2 {
+    margin-top: 10rem;
+    font-size: 4.2rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */

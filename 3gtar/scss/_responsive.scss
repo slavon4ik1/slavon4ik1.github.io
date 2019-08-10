@@ -1,0 +1,245 @@
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 8px;
+  }
+  .header {
+    &__content {
+      margin-top: 5rem;
+    }
+  }
+  .benefit {
+    &__switch-wrap {
+      a {
+        padding: 1rem 1.9rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  .header {
+    background: url(../img/header-bg.png) no-repeat;
+    height: max-content;
+    &__phones {
+      display: none;
+    }
+    &__callback {
+      justify-content: center;
+    }
+    &__messenger {
+      justify-content: center;
+      
+      img {
+        &:first-child {
+          padding-right: 2.5rem;
+        }
+        &:last-child {
+          padding-left: 2.5rem;
+        }
+      }
+    }
+    &__menu {
+      display: flex;
+      justify-content: flex-end;
+      // &--box {
+
+      // }
+    }
+    &__content {
+      margin-top: 2rem;
+    }
+    &__content-box {
+      margin-top: 4.5rem;
+      &::after {
+        width: 85%;
+      }
+    }
+    &__form {
+      width: 70%;
+      margin: 7rem auto;
+      // margin-top: 2rem;
+
+    }
+  }
+
+  .solution {
+    &__dscription-box {
+      h3 {
+        margin-top: 7rem;
+      }
+      a {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+
+  .benefit {
+    height: 100rem;
+    &__switch-wrap {
+      a {
+        padding: 1rem 6.65rem;
+      }
+    }
+  }
+
+  .reviews {
+    &__img {
+      // width: 90%;
+    }
+    &__author {
+      margin-top: 1rem;
+      p{
+        line-height: 1.2;
+        &::before {
+          top: 130%;
+        }
+      }
+    }
+    .owl-nav {
+      position: absolute;
+      left: 11.5%;
+      top:30rem;
+    }
+  }
+  
+}
+@media screen and (max-width: 768px) {
+  .header {
+    &__messenger {
+      display: none;
+    }
+    &__menu {
+      margin-top: 0.5rem;
+    }
+    &__content {
+      h1 {
+        font-size: 4rem;
+      }
+    }
+    &__content-box {
+      &::after {
+        width: 100%;
+        left: -2%;
+        top: -10%;
+      }
+    }
+    &__form {
+      margin-bottom: 9rem;
+    }
+  }
+
+  .solution {
+    &__dscription-box {
+      margin-left: 0 !important;
+      h3 {
+        margin-top: 2.5rem;
+      }
+      a {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+
+  .benefit {
+    &__switch-wrap {
+      a {
+        padding: 1rem 3.04rem;
+      }
+    }
+  }
+
+  .price {
+    &__list-wrap {
+      margin: 0 auto;
+      width: 80%;
+      margin-top: 3rem;
+    }
+  }
+
+  .reviews {
+    &__img {
+      width: 70%;
+      margin: 1rem auto;
+    }
+    &__author {
+      margin-top: 3rem;
+    }
+    .owl-nav {
+      display: none;
+    }
+  }
+  .footer {
+    &__contacts {
+      display: none;
+    }
+    &__line-top {
+      display: none;
+    }
+    &__line-bottom {
+      display: none;
+    }
+    &__title {
+      display: none;
+    }
+    &__bottom {
+      margin-top: 2.5rem;
+    }
+    &__copyright {
+      &--link {
+        justify-content: center;
+      }
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 7px;
+  }
+ .header {
+   &__menu {
+     justify-content: center;
+   }
+   &__logo-wrap {
+     padding-top: 1.8rem;
+   }
+   &__content-box {
+    &::after {
+      background: none;
+      top: -20%;
+    }
+  }
+  &__form {
+    margin-top: 3rem;
+  }
+ }
+
+ .benefit {
+  &__switch-wrap {
+    width: 40rem;
+    // font-size: 6px;
+    a {
+      padding: 1rem 2.8rem;
+    }
+  }
+}
+
+ .reviews {
+  &__img {
+    margin-top: 3rem;
+  }
+  &__txt {
+    width: 100%;
+    padding: 1.9rem;
+    padding-left: 0;
+  }
+  &__author {
+    p {
+      line-height: 3rem;
+    }
+  }
+}
+}

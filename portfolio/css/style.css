@@ -197,7 +197,7 @@
     border-radius: 50%;
     width: 128px;
     margin: 0 auto;
-    padding: 46px 0;
+    padding: 40px 0;
     margin-bottom: 80px;
 }
 #about {
@@ -405,6 +405,9 @@ footer {
     }
 }
 @media screen and (max-width: 768px) {
+    .works__item {
+        margin: 0 auto;
+    }
 	#header {
         width: 100%;
         background-size: cover;

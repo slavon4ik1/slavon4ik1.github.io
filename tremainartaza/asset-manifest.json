@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4088a577.chunk.css",
+    "main.js": "/static/js/main.4450af20.chunk.js",
+    "main.js.map": "/static/js/main.4450af20.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fa8d3903.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fa8d3903.js.map",
+    "static/js/2.acc5670a.chunk.js": "/static/js/2.acc5670a.chunk.js",
+    "static/js/2.acc5670a.chunk.js.map": "/static/js/2.acc5670a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.da301e19f0306cf51a0c310734969860.js": "/precache-manifest.da301e19f0306cf51a0c310734969860.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.4088a577.chunk.css.map": "/static/css/main.4088a577.chunk.css.map",
+    "static/js/2.acc5670a.chunk.js.LICENSE": "/static/js/2.acc5670a.chunk.js.LICENSE",
+    "static/media/index.scss": "/static/media/ProximaNova-Regular.ecef0fae.woff2",
+    "static/media/header.scss": "/static/media/image-bg.92f22d8e.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa8d3903.js",
+    "static/js/2.acc5670a.chunk.js",
+    "static/css/main.4088a577.chunk.css",
+    "static/js/main.4450af20.chunk.js"
+  ]
+}

@@ -2,6 +2,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 *{
   margin: 0;
@@ -399,7 +400,6 @@ a {
   padding-left: 5.9rem;
   outline: none;
   border: none;
-  /* border-radius: 4px; */
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
@@ -1149,7 +1149,9 @@ a {
   }
   .posts__wrap:nth-child(2) a {
     left: 14.3rem;
-}
+  }
+  
+
   .header__content-links {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1171,7 +1173,10 @@ a {
             justify-content: center;
   }
   .posts__item > img {
-    width: 47rem;
+    width: 32rem;
+  }
+  .posts__item > a {
+    left: 0;
   }
   .agents__card-options > div {
     margin-top: -1rem;
@@ -1192,10 +1197,28 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .posts__wrap:nth-child(2) a {
+    left: 0;
+}
   .footer__menu-item {
     margin-right: 3rem;
   }
   .footer__top input {
-    width: 43rem;
-}
+    width: 34rem;
+  }
+  .footer__top::after {
+    width: 80%;
+  }
+  .footer__top > h2 {
+    font-size: 3rem;
+  }
+  .posts__item > a {
+    width: 32rem;
+  }
+  .footer__top > span::after {
+    display: none;
+  }
+  .appartments__controler input {
+    width: 22rem;
+  }
 }

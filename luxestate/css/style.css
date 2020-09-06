@@ -1,8 +1,10 @@
 /* Browsers: last 4 version */
-
+/* header,.statistics,.appartments,.works,.services,.agents,.posts {
+  display: none !important;
+} */
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 *{
   margin: 0;
@@ -1132,8 +1134,11 @@ a {
 }
 
 @media (max-width: 576px) {
+  * {
+    font-size: 7px;
+  }
   .container {
-    width: 45rem;
+    width: 39rem;
   }
   .header__content-links > a {
     padding-bottom: 1rem;
@@ -1142,11 +1147,9 @@ a {
     font-size: 3rem;
   }
   .header__form input {
-    width: 25rem;
+    width: 20rem;
   }
-  .statistics__options-left > h2 {
-    margin-top: 13rem;
-  }
+  
   .posts__wrap:nth-child(2) a {
     left: 14.3rem;
   }
@@ -1189,7 +1192,7 @@ a {
     top: 14rem;
   }
   .footer__logo {
-    margin-bottom: 3rem;
+    margin: 2rem auto;
   }
   .footer__nav {
     -webkit-box-orient: vertical;
@@ -1202,6 +1205,7 @@ a {
 }
   .footer__menu-item {
     margin-right: 3rem;
+    margin-left: 3rem;
   }
   .footer__top input {
     width: 34rem;
@@ -1220,5 +1224,24 @@ a {
   }
   .appartments__controler input {
     width: 22rem;
+  }
+  .header__links a {
+    margin-right: 0;
+    margin-left: 2rem;
+  }
+  .header__content > img {
+    height: 50rem;
+  }
+  .appartments__card-options > span{
+    margin-right: 6rem;
+  }
+  .agents__description > p {
+    min-width: 90%;
+  }
+  .posts__wrap:nth-child(2) .posts__item:nth-child(2) {
+    margin-left: 0;
+  }
+  .footer__menu {
+    justify-content: center;
   }
 }

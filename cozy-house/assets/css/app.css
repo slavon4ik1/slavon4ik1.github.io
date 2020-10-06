@@ -1533,6 +1533,7 @@ ul {
 }
 
 .header {
+  overflow: hidden;
   background-image: url(../../dog.png);
   background-position: top;
   padding-bottom: 25vh;

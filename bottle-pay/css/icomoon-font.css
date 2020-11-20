@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon/icomoon.eot?zapcbh');
+  src:  url('../fonts/icomoon/icomoon.eot?zapcbh#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.ttf?zapcbh') format('truetype'),
+    url('../fonts/icomoon/icomoon.woff?zapcbh') format('woff'),
+    url('../fonts/icomoon/icomoon.svg?zapcbh#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change ../fonts/icomoon */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-down:before {
+  content: "\e903";
+}
+.icon-arrow-up:before {
+  content: "\e904";
+}
+.icon-brand-instagram:before {
+  content: "\e905";
+}
+.icon-brand-linkedin:before {
+  content: "\e906";
+}
+.icon-brand-telegram:before {
+  content: "\e907";
+}
+.icon-brand-twitter:before {
+  content: "\e908";
+}
+.icon-brand-apple:before {
+  content: "\e901";
+  
+}
+.icon-brand-google-play:before {
+  content: "\e900";
+  
+}

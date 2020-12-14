@@ -308,10 +308,10 @@ a {
  margin-right: 3rem;
  margin-bottom: 5rem;
 }
-.appartments__card-top,
+/* .appartments__card-top,
 .agents__card-top {
   background-color: #b1d7e8;
-}
+} */
 .appartments__card-top > img,
 .agents__card-top > img {
   max-width: 100%;

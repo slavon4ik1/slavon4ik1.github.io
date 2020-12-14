@@ -633,7 +633,7 @@ a {
   margin-left: -10rem;
 }
 .services__left > img {
-  max-width: 100%;
+  max-width: 650px;
 }
 .services__right {
   display: -webkit-box;

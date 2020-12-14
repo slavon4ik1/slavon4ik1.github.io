@@ -127,7 +127,7 @@ a {
   margin-bottom: 6rem;
 }
 .header__content > img {
-  opacity: 0.6;
+  opacity: 0.85;
   max-width: 100%;
 }
 .header__content:first-child{

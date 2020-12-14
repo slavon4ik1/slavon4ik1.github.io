@@ -303,6 +303,8 @@ a {
 .appartments__card,
 .agents__card {
   cursor: pointer;
+  display: block;
+  max-width: 350px;
  margin-right: 3rem;
  margin-bottom: 5rem;
 }

@@ -67,7 +67,7 @@ font-size: 20px;
   border-radius: 30px;
   background-color: #ffffff;
   box-shadow: 0px 0px 30px 0px rgba(0, 1, 0, 0.03);
-  min-width: 340px;
+  min-width: 284px;
   height: 160px;
   margin: 11px 14px;
 }
@@ -75,7 +75,7 @@ font-size: 20px;
   position: absolute;
   content: '';
   height: 160px;
-  width: 200px;
+  width: 130px;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   background: #ffffff;
@@ -86,7 +86,7 @@ font-size: 20px;
   font-weight: 600;
   color: #39394d;
   padding-top: 38px;
-  padding-left: 33px;
+  padding-left: 15px;
   z-index: 11;
 
 }
@@ -94,33 +94,33 @@ font-size: 20px;
   position: relative;
   color: #717171;
   font-weight: 400;
-  padding-left: 33px;
+  padding-left: 15px;
   z-index: 12;
-  max-width: 211px;
+  max-width: 180px;
 }
 .section__card:nth-child(1) {
  
-  background-position: 211px -20px;
+  background-position: 157px -20px;
   background-repeat: no-repeat;
 }
 .section__card:nth-child(2) {
   
-  background-position: 40px -20px;
+  background-position: -5px -20px;
   background-repeat: no-repeat;
 }
 .section__card:nth-child(3) {
 
-  background-position: -100px -10px;
+  background-position: -150px -10px;
   background-repeat: no-repeat;
 }
 .section__card:nth-child(4) {
 
-  background-position: -240px -12px;
+  background-position: -300px -12px;
   background-repeat: no-repeat;
 }
 .section__card:nth-child(5) {
 
-  background-position: -370px -20px;
+  background-position: -425px 0px;
   background-repeat: no-repeat;
 }
 @media (max-width: 991.99px) {
@@ -136,14 +136,13 @@ font-size: 20px;
   .section__title>.subtitle {
     text-align: center;
   }
-}
-@media (max-width : 574.99px) {
   .section__card {
     background-image: url(../../uploads/blocks/sprite2.png);
     min-width: 211px;
     width: 211px;
     height: 260px;
   }
+
   .section__card::before {
     position: absolute;
     content: '';
@@ -153,6 +152,7 @@ font-size: 20px;
     border-bottom-left-radius: 30px;
     background: none;
   }
+
   .section__card:nth-child(1) {
 
     background-position: 38px 148px;
@@ -173,7 +173,7 @@ font-size: 20px;
 
   .section__card:nth-child(4) {
 
-    background-position: -695px 140px;
+    background-position: -695px 153px;
     background-repeat: no-repeat;
   }
 
@@ -182,13 +182,20 @@ font-size: 20px;
     background-position: -935px 177px;
     background-repeat: no-repeat;
   }
+
   .section__card-title {
     padding-top: 25px;
     padding-left: 18px;
+    font-size: 21px;
   }
+
   .section__card-description {
     padding-left: 18px;
-    font-size: 22px;
+    font-size: 18px;
+    max-width: 210px;
   }
+}
+@media (max-width : 574.99px) {
+  
 }
 

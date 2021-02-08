@@ -530,6 +530,7 @@ a {
   -o-transition: ease-in 0.3s;
   transition: ease-in 0.3s;;
 }
+
 .works__option::before {
   font-family: Montserrat-SemiBold;
   position: absolute;
